@@ -6,10 +6,9 @@ A simple CRUD application built using **Flask + SQLite**, demonstrating the **Mo
 ---
 
 ## 🔧 Built With  
-- [Flask](https://flask.palletsprojects.com/) – Python web framework  
-- SQLite3 – Lightweight relational database  
-- HTML / CSS / Jinja2 Templates – For the view layer  
-- MVC architecture – For separation of concerns  
+- [Flask] – Python web framework  
+- SQLite3 – Relational db
+- HTML / CSS / Jinja2  – For the view  
 
 ---
 
@@ -55,3 +54,17 @@ Handles user interactions and coordinates Model & View:
 1. Install dependencies:  
    ```bash
    pip install flask
+   
+2. Run
+   ```bash
+   python app.py or python3 app.py
+3. Open in browser
+   ```cpp
+   http://127.0.0.1:5000/
+   
+   If you get an error like OperationalError: table notes has no column named category, delete the existing notes.db file and rerun the app — the database will rebuild
+
+🎥 Demo Video
+
+(Lagay vid dito harhar)
+
