@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Edit Note</h2>
+
+<form method="POST">
+    <label>Title</label>
+    <input type="text" name="title" value="{{ note.title }}">
+
+    <label>Content</label>
+    <textarea name="content">{{ note.content }}</textarea>
+
+    <label>Category</label>
+    <select name="category">
+        {% for cat in categories %}
+            <option value="{{ cat }}" {% if note.category==cat %}selected{% endif %}>{{ cat }}</option>
+        {% endfor %}
+    </select>
+
+    <button type="submit">Update Note</button>
+</form>
+{% endblock %}
