@@ -64,7 +64,7 @@ Handles user interactions and coordinates Model & View:
    
    If you get an error like OperationalError: table notes has no column named category, delete the existing notes.db file and rerun the app — the database will rebuild
 
-🎥 Demo Video
+## 🎥 Demo Video
 
 https://drive.google.com/file/d/1W6UTZl64B3lpReIl7u0lhQeKWVK1giZZ/view?usp=sharing
 
